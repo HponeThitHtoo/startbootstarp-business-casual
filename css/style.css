@@ -200,3 +200,8 @@ p {
   right: -0.5rem;
   border: 0.25rem solid rgba(255, 255, 255, 0.85);
 }
+
+/* Footer */
+.footer {
+  background-color: rgba(47, 23, 15, 0.9);
+}
