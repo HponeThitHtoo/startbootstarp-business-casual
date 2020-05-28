@@ -205,3 +205,18 @@ p {
 .footer {
   background-color: rgba(47, 23, 15, 0.9);
 }
+
+/* about.html */
+/* About Section */
+@media (min-width: 992px) {
+  .about-heading .about-heading-img {
+    position: relative;
+    z-index: 0;
+  }
+
+  .about-heading .about-heading-content {
+    margin-top: -5rem;
+    position: relative;
+    z-index: 1;
+  }
+}
