@@ -84,6 +84,33 @@ p {
   padding-right: 2rem;
 }
 
+.text-primary {
+  color: #e6a756 !important;
+}
+
+.bg-primary {
+  background-color: #e6a756 !important;
+}
+
+.btn {
+  box-shadow: 0px 3px 3px 0px rgba(33, 37, 41, 0.1);
+}
+
+.btn-primary {
+  background-color: #e6a756;
+  border-color: #e6a756;
+}
+
+.btn-primary:hover, .btn-primary:focus, .btn-primary:active {
+  background-color: #df902a;
+  border-color: #df902a;
+}
+
+.font-weight-light {
+  font-weight: 100 !important;
+}
+
+
 /* Navigation */
 #mainNav {
   background-color: rgba(47, 23, 15, 0.9);
@@ -114,5 +141,37 @@ p {
 
   #mainNav .navbar-nav .nav-item.active .nav-link:hover {
     color: #e6a756;
+  }
+}
+
+/* Intro Section */
+.intro {
+  position: relative;
+}
+
+@media (min-width: 992px) {
+  .intro .intro-img {
+    width: 75%;
+    float: right;
+  }
+
+  .intro .intro-text {
+    left: 0;
+    width: 60%;
+    margin-top: 3rem;
+    position: absolute;
+  }
+
+  .intro .intro-text .intro-button {
+    width: 100%;
+    left: 0;
+    position: absolute;
+    bottom: -2rem;
+  }
+}
+
+@media (min-width: 1200px) {
+  .intro .intro-text {
+    width: 45%;
   }
 }
